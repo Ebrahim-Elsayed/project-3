@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'McLaren', cursive;
+}
+
+.container {
+  width: 100%;
+  line-height: 1.3;
+}
+#massegewin{
+    margin-top: 100px;
+    font-size: 30px;
+    border: 3px solid #333;
+    padding: 20px;
+    border-radius: 30px;
+    display: none;
+    
+}
+.rows {
+  display: flex;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", cursive;
+  color: #5169d4;
+}
+
+.scores {
+  font-size: 18px;
+}
+
+#score,
+#death-score,
+#high-score,
+#enemy-count {
+  color: #124deb;
+}
+
+.rules {
+  margin-top: 50px;    
+}
+
+.rules-text {
+  margin-top: 30px;
+}
+
+canvas {
+  margin-top: -20px;
+}
+
+button {
+  margin-top: 30px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link href="https://fonts.googleapis.com/css?family=McLaren|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+      <div class="rows">
+          
+        <div id="game-board" class="col-sm-6 text-right"></div>
+          
+        <div class="col-sm-6 scores">
+            
+          <h1>Frogger: The Game</h1>
+
+            <div class="col-sm-6 text-right">High Score: </div>
+            <div id="high-score" class="col-sm-6 text-left"></div>
+
+            <div class="col-sm-6 text-right">Death Score: </div>
+            <div id="death-score" class="col-sm-6 text-left"></div>
+
+            <div class="col-sm-6 text-right">Number of enemies: </div>
+            <div id="enemy-count" class="col-sm-6 text-left"></div>
+
+            <div class="col-sm-6 text-right">Score: </div>
+            <div id="score" class="col-sm-6 text-left"></div>
+
+            <div class="col-sm-6 text-right">Level: </div>
+            <div id="level" class="col-sm-6 text-left"></div>
+
+            <div class="col-sm-8 col-sm-offset-2">
+              <button type="button" onclick="addEnemy()">Add enemy</button>
+              <button type="button" onclick="removeEnemy()">Remove enemy</button>
+            </div>
+            <div id="massegewin">
+                
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+
+</body>
+</html>
